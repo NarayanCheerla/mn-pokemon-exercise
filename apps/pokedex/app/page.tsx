@@ -1,15 +1,5 @@
 import { Button } from "@repo/ui/button";
-import styles from "./page.module.css";
-import {add} from "@repo/utils";
 
 export default function Home() {
-  return (
-    <div className={styles.page}>
-      <main className={styles.main}>
-        <Button appName="Pokedex" className={styles.secondary}>
-          Open alert {add(5,8)}
-        </Button>
-      </main>
-    </div>
-  );
+  return <Button appName="Pokedex">Open alert pokedex</Button>;
 }
