@@ -20,6 +20,9 @@ importers:
 
   apps/pokedex:
     dependencies:
+      '@repo/typescript-config':
+        specifier: workspace:*
+        version: link:../../packages/typescript-config
       '@repo/ui':
         specifier: workspace:*
         version: link:../../packages/ui
@@ -123,6 +126,9 @@ importers:
 
   packages/utils:
     dependencies:
+      '@repo/typescript-config':
+        specifier: workspace:*
+        version: link:../typescript-config
       typescript:
         specifier: ^5.5.4
         version: 5.5.4
