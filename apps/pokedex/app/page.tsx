@@ -1,6 +1,6 @@
 import { Button } from "@repo/ui/button";
 import styles from "./page.module.css";
-import {add} from "utils";
+import {add} from "@repo/utils";
 
 export default function Home() {
   return (
